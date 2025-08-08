@@ -8,7 +8,7 @@ from langchain.agents import initialize_agent, AgentType
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-# Load environment variables
+# Load environment variable
 load_dotenv()
 
 # Initialize search tools
@@ -79,3 +79,4 @@ with gr.Blocks() as demo:
 # Run app
 if __name__ == "__main__":
     demo.launch()
+
