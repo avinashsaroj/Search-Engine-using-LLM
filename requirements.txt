@@ -29,4 +29,6 @@ youtube_transcript_api
 unstructured
 pytube
 numexpr
+gradio
+
 huggingface_hub
